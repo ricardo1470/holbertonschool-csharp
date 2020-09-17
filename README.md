@@ -49,7 +49,7 @@ What is the length of v, assuming its origin is 0, 0, 0?. v = (7, -3, -9) |
 ---
 
 ## License
-*`API advanced` is open source and therefore free to download and use without permission.*
+*`Linear Algebra` is open source and therefore free to download and use without permission.*
 
 <a href="url"><img src="https://www.holbertonschool.com/holberton-logo.png" align="middle" width="100" height="30"></a>
 
