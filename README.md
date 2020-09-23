@@ -2,7 +2,7 @@
 ---
 | **Filename** | **Description** |
 |---|---|
-| (0x09. C# - Linear Algebra)[https://github.com/ricardo1470/holbertonschool-csharp] | add description  |
+| [0x09. C#-Linear Algebra](./https://github.com/ricardo1470/holbertonschool-csharp) | add description  |
 |  |   |
 
 ---
