@@ -16,7 +16,7 @@
 | [11. Create a new sentence](./11-concat_edges.cs)  | Complete this [source code](https://github.com/holbertonschool/0x00.cs/blob/master/11-concat_edges.cs) to print `object-oriented programming in C#` followed by a new line. |
 | **advanced** | **Description** |
 | [12. Hello, Error](./100-hello_error.cs)  | Write a C# script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19` followed by a new line.  |
----
+
 ---
 > ## contact 💬
 
