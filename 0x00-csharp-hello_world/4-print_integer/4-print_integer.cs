@@ -1,7 +1,10 @@
 ﻿using System;
 
-static void Main(string[] args)
+class Program
 {
-    int number = 972;
-    Console.WriteLine($"{number} Mission Street");
+	static void Main(string[] args)
+	{
+		int number = 972;
+		Console.WriteLine($"{number} Mission Street");
+	}
 }
