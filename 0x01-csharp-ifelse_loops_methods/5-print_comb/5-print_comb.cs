@@ -14,6 +14,7 @@ namespace _5_print_comb
                 Console.Write("{0}{1:d2}", comma, number);
                 comma = ", ";
             }
+            Console.WriteLine();
         }
     }
 }
