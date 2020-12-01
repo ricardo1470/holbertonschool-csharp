@@ -2,8 +2,8 @@
 ---
 | **Filename** | **Description** |
 |---|---|
-| [0x00-csharp-hello_world]() | add description  |
-| [0x01-csharp-ifelse_loops_methods]() | add description  |
+| [0x00-csharp-hello_world](https://github.com/ricardo1470/holbertonschool-csharp/tree/master/0x00-csharp-hello_world) | add description  |
+| [0x01-csharp-ifelse_loops_methods](https://github.com/ricardo1470/holbertonschool-csharp/tree/master/0x01-csharp-ifelse_loops_methods) | add description  |
 | [0x09. C#-Linear Algebra](./https://github.com/ricardo1470/holbertonschool-csharp/tree/master/0x09-csharp-linear_algebra) | add description  |
 |  |   |
 
