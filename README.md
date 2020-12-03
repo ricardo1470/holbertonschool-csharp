@@ -4,6 +4,8 @@
 |---|---|
 | [0x00-csharp-hello_world](https://github.com/ricardo1470/holbertonschool-csharp/tree/master/0x00-csharp-hello_world) | add description  |
 | [0x01-csharp-ifelse_loops_methods](https://github.com/ricardo1470/holbertonschool-csharp/tree/master/0x01-csharp-ifelse_loops_methods) | add description  |
+| [0x02-csharp-arrays_lists_dictionaries](https://github.com/ricardo1470/holbertonschool-csharp/tree/master/0x02-csharp-arrays_lists_dictionaries) | add description  |
+| [0x03. C# - Data Structures: HashSet, Stack, Queue, LinkedList]() | add description  |
 | [0x09. C#-Linear Algebra](./https://github.com/ricardo1470/holbertonschool-csharp/tree/master/0x09-csharp-linear_algebra) | add description  |
 |  |   |
 
