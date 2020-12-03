@@ -1,24 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 class Dictionary
 {
-    public static string BestScore(Dictionary<string, int> myList)
+    public static void PrintSorted(Dictionary<string, string> myDict)
     {
-        int max = 0;
-        string result = "None";
-        if (myList.Count <= 0)
+        foreach (KeyValuePair<string, string> item in myDict.OrderBy(key => key.Key))
         {
-            return result;
+            Console.WriteLine($"{item.Key}: {item.Value}");
         }
-        foreach (KeyValuePair<string, int> kvp in myList)
-        {
-            if (max <= kvp.Value)
-            {
-                max = kvp.Value;
-                result = kvp.Key;
-            }
-        }
-        return result;
     }
 }
