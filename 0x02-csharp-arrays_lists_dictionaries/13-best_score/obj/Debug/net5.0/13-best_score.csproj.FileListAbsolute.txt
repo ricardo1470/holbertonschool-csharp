@@ -1,0 +1,16 @@
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/bin/Debug/net5.0/13-best_score
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/bin/Debug/net5.0/13-best_score.deps.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/bin/Debug/net5.0/13-best_score.runtimeconfig.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/bin/Debug/net5.0/13-best_score.runtimeconfig.dev.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/bin/Debug/net5.0/13-best_score.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/bin/Debug/net5.0/ref/13-best_score.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/bin/Debug/net5.0/13-best_score.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.csprojAssemblyReference.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.GeneratedMSBuildEditorConfig.editorconfig
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.AssemblyInfoInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.AssemblyInfo.cs
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.csproj.CoreCompileInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/ref/13-best_score.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/13-best_score/obj/Debug/net5.0/13-best_score.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/bin/Debug/net5.0/12-print_sorted_dictionary
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/bin/Debug/net5.0/12-print_sorted_dictionary.deps.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/bin/Debug/net5.0/12-print_sorted_dictionary.runtimeconfig.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/bin/Debug/net5.0/12-print_sorted_dictionary.runtimeconfig.dev.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/bin/Debug/net5.0/12-print_sorted_dictionary.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/bin/Debug/net5.0/ref/12-print_sorted_dictionary.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/bin/Debug/net5.0/12-print_sorted_dictionary.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.csprojAssemblyReference.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.GeneratedMSBuildEditorConfig.editorconfig
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.AssemblyInfoInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.AssemblyInfo.cs
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.csproj.CoreCompileInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/ref/12-print_sorted_dictionary.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/12-print_sorted_dictionary/obj/Debug/net5.0/12-print_sorted_dictionary.genruntimeconfig.cache

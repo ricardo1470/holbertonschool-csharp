@@ -14,7 +14,7 @@ class Array
         }
 
         int[] numbers = new int[size];
-        
+
         for (i = 0; i < size; i++)
         {
             numbers[i] = i;

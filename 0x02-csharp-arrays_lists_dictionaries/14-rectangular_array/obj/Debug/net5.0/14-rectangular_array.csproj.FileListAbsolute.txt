@@ -1,0 +1,16 @@
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/net5.0/14-rectangular_array
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/net5.0/14-rectangular_array.deps.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/net5.0/14-rectangular_array.runtimeconfig.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/net5.0/14-rectangular_array.runtimeconfig.dev.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/net5.0/14-rectangular_array.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/net5.0/ref/14-rectangular_array.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/net5.0/14-rectangular_array.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.csprojAssemblyReference.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.GeneratedMSBuildEditorConfig.editorconfig
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.AssemblyInfoInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.AssemblyInfo.cs
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.csproj.CoreCompileInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/ref/14-rectangular_array.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/net5.0/14-rectangular_array.genruntimeconfig.cache

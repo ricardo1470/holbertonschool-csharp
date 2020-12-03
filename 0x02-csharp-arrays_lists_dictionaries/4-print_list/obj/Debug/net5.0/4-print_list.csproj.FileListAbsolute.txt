@@ -1,0 +1,16 @@
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/bin/Debug/net5.0/4-print_list
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/bin/Debug/net5.0/4-print_list.deps.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/bin/Debug/net5.0/4-print_list.runtimeconfig.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/bin/Debug/net5.0/4-print_list.runtimeconfig.dev.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/bin/Debug/net5.0/4-print_list.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/bin/Debug/net5.0/ref/4-print_list.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/bin/Debug/net5.0/4-print_list.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.csprojAssemblyReference.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.GeneratedMSBuildEditorConfig.editorconfig
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.AssemblyInfoInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.AssemblyInfo.cs
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.csproj.CoreCompileInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/ref/4-print_list.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/4-print_list/obj/Debug/net5.0/4-print_list.genruntimeconfig.cache

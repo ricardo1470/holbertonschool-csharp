@@ -1,0 +1,16 @@
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/bin/Debug/net5.0/8-number_keys
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/bin/Debug/net5.0/8-number_keys.deps.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/bin/Debug/net5.0/8-number_keys.runtimeconfig.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/bin/Debug/net5.0/8-number_keys.runtimeconfig.dev.json
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/bin/Debug/net5.0/8-number_keys.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/bin/Debug/net5.0/ref/8-number_keys.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/bin/Debug/net5.0/8-number_keys.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.csprojAssemblyReference.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.GeneratedMSBuildEditorConfig.editorconfig
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.AssemblyInfoInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.AssemblyInfo.cs
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.csproj.CoreCompileInputs.cache
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/ref/8-number_keys.dll
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.pdb
+/home/ricardo1470/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/8-number_keys/obj/Debug/net5.0/8-number_keys.genruntimeconfig.cache
