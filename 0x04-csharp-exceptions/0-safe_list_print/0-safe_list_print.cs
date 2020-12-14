@@ -18,7 +18,6 @@ class List
         }
         catch (Exception)
         {
-            Console.WriteLine("");
         }
         return (j);
     }
