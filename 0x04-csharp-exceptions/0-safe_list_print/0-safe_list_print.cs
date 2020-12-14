@@ -13,13 +13,12 @@ class List
             for (i = 0; i < n; i++)
             {
                 Console.WriteLine(myList[i]);
-                j++;
+                j = i + 1;
             }
-            return (j);
         }
         catch
         {
-            return (j);
         }
+            return (j);
     }
 }
