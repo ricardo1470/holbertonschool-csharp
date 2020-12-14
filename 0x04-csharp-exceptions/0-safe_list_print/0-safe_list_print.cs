@@ -13,7 +13,7 @@ class List
             for (i = 0; i < n; i++)
             {
                 Console.WriteLine(myList[i]);
-                j = j + i;
+                j = i + 1;
             }
         }
         catch (Exception)
