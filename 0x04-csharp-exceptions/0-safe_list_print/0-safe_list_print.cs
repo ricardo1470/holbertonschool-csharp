@@ -15,10 +15,10 @@ class List
                 Console.WriteLine(myList[i]);
                 j = i + 1;
             }
+            return (j);
         }
-        catch (Exception)
+        catch
         {
         }
-        return (j);
     }
 }
