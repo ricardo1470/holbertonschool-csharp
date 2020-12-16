@@ -1,0 +1,6 @@
+0-add
+1-divide
+2-max_int
+3-palindrome
+4-unique
+5-camelcase
