@@ -1,5 +1,7 @@
 > # 0x07. C# - Test Driven Development
 ---
+| **Filename** | **Description** |
+|---|---|
 | [0. Add integers](./0-add/) | a method that adds 2 numbers  |
 | [1. Divide a matrix](./1-divide/) | method that divides all elements of a matrix.  |
 | [2. Max integer](./2-max_int/) | method that returns the max integer in a list of integers.  |
