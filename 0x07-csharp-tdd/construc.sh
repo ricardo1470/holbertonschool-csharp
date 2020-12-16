@@ -11,5 +11,5 @@ for name in ${file}; do
     dotnet new console -o "./$name/"
     dotnet build "./$name/"
     $(mv ./$name/Program.cs ./$name/"${name}.cs")
-    #echo -e "\e[0;32mfile ${name} created successfully \e0m"
+    echo -e "\e[0;32mfile ${name} created successfully \e0"
 done

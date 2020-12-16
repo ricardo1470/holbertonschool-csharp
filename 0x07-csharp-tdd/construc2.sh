@@ -35,6 +35,6 @@ for dirname in ${dir}; do
     cd ..
     dotnet sln add ./"${filenames[i]}.Test"/"${filenames[i]}.Test.csproj"
     let "i++"
-    #echo -e "\e[0;32mfile ${filenames[i]} created successfully\e0m"
+    #echo -e "\e[0;32mfile ${filenames[i]} created successfully\e0"
     cd ..
 done
