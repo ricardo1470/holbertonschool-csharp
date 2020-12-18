@@ -14,13 +14,13 @@ namespace MyMath
         {
             int i, j;
 
-            if (matrix == 0)
-            {
-                return (null);
-            }
             if (num == 0)
             {
                 Console.WriteLine("Num cannot be 0");
+                return (null);
+            }
+            if (matrix == 0)
+            {
                 return (null);
             }
             for (i = 0; i < matrix.GetLength(0); i++)
