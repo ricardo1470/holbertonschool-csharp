@@ -8,7 +8,7 @@ namespace MyMath
     public class Matrix
     {
         ///<summary>
-        /// returns the result of dividing the elements of a matrix
+        /// returns a matrix
         ///</summary>
         public static int[,] Divide(int[,] matrix, int num)
         {
