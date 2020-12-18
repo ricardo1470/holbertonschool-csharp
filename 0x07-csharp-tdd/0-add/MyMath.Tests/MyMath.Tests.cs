@@ -9,7 +9,7 @@ namespace MyMath.Tests
         public void sum()
         {
             int a = 8;
-            int b = 5
+            int b = 5;
             Assert.AreEqual(MyMath.operation.Add(a, b), 13);
         }
 
@@ -17,7 +17,7 @@ namespace MyMath.Tests
         public void negativesum()
         {
             int a = -3;
-            int b = -6
+            int b = -6;
             Assert.AreEqual(MyMath.Operations.Add(a, b), -9);
         }
 
