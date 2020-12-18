@@ -2,14 +2,14 @@
 
 namespace MyMath
 {
-    ///<sumary>
+    ///<summary>
     /// method that adds 2 numbers
-    ///</sumaru>
+    ///<summary>
     public class Operations
     {
-        ///<sumary>
+        ///<summary>
         /// returns the sum of two integers
-        ///</sumaru>
+        ///<summary>
         public static int Add(int a, int b)
         {
             return (a + b);
