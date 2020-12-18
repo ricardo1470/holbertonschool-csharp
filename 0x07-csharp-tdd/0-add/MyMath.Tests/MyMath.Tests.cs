@@ -26,6 +26,7 @@ namespace MyMath.Tests
         [TesCases(3, 6)]
         [TesCases(-4, 4)]
         [TesCases(-5, 0)]
+        [TesCases(-3, -2)]
         [TesCases(0, 0)]
         [Test]
         public void integers(int a, int b)
