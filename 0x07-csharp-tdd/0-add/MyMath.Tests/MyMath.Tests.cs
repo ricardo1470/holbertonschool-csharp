@@ -10,7 +10,8 @@ namespace MyMath.Tests
         {
             int a = 4;
             int b = 5;
-            Assert.AreEqual(MyMath.operations.Add(a, b), 9);
+            Assert.AreEqual(9, MyMath.Operations.Add(a, b));
+
         }
 
         [Test]
@@ -18,20 +19,19 @@ namespace MyMath.Tests
         {
             int a = -3;
             int b = -6;
-            Assert.AreEqual(MyMath.Operations.Add(a, b), -9);
+            Assert.AreEqual(-9, MyMath.Operations.Add(a, b));
         }
 
-        [TesCases(0, 1)]
-        [TesCases(1, -9)]
-        [TesCases(3, 6)]
-        [TesCases(-4, 4)]
-        [TesCases(-5, 0)]
-        [TesCases(-3, -2)]
-        [TesCases(0, 0)]
-        [Test]
+        [TestCase(0, 1)]
+        [TestCase(1, -9)]
+        [TestCase(3, 6)]
+        [TestCase(-4, 4)]
+        [TestCase(-5, 0)]
+        [TestCase(-3, -2)]
+        [TestCase(0, 0)]
         public void integers(int a, int b)
         {
-            Assert.AreEqual(MyMath.Operations.Add(a, b), a+b);
+            Assert.AreEqual(a + b, MyMath.Operations.Add(a, b));
         }
     }
 }

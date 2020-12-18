@@ -4,12 +4,12 @@ namespace MyMath
 {
     ///<summary>
     /// method that adds 2 numbers
-    ///<summary>
+    ///</summary>
     public class Operations
     {
         ///<summary>
         /// returns the sum of two integers
-        ///<summary>
+        ///</summary>
         public static int Add(int a, int b)
         {
             return (a + b);
