@@ -6,7 +6,7 @@ namespace MyMath.Tests
     public class MatrixTests
     {
         [Test]
-        public void When_0()
+        public void cero()
         {
             int[,] firstMatrix = new int[2, 2] {{4, 2}, {2, 4}};
 
@@ -15,7 +15,7 @@ namespace MyMath.Tests
         }
 
         [Test]
-        public void When_Null()
+        public void matrix()
         {
             int[,] firstMatrix = null;
 
@@ -24,7 +24,7 @@ namespace MyMath.Tests
         }
 
         [Test]
-        public void When_Normal()
+        public void divide()
         {
             int[,] firstMatrix = new int[2, 2] {{4, 2}, {2, 4}};
 
