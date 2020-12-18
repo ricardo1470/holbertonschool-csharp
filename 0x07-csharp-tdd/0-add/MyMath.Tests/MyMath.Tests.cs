@@ -8,9 +8,9 @@ namespace MyMath.Tests
         [Test]
         public void sum()
         {
-            int a = 8;
+            int a = 4;
             int b = 5;
-            Assert.AreEqual(MyMath.operation.Add(a, b), 13);
+            Assert.AreEqual(MyMath.operations.Add(a, b), 9);
         }
 
         [Test]
@@ -31,7 +31,7 @@ namespace MyMath.Tests
         [Test]
         public void integers(int a, int b)
         {
-            Assert.AreEqual(MyMath.operation.Add(a, b), a+b);
+            Assert.AreEqual(MyMath.Operations.Add(a, b), a+b);
         }
     }
 }
