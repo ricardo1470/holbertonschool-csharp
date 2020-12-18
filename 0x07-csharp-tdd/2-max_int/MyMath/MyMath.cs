@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MyMath
 {
@@ -11,19 +12,18 @@ namespace MyMath
         /// method that returns max integer in a list
         /// </summary>
         public static int Max(List<int> nums)
-        {
-            int i = 0;
-            if (nums.Count > 0)
-            {
-                foreach (int num in nums)
-                {
-                    if (num > i)
-                    {
-                        i = num;
-                    }
-                }
-            }
-            return i;
-        }
+		{
+			if (nums == null || nums.Count == 0)
+			{
+				return (0);
+			}
+			int num_max = nums[0];
+
+			foreach (int i in nums)
+			{
+				num_max = i > num_max ? i : num_max;
+			}
+			return num_max;
+		}
     }
 }
