@@ -19,7 +19,7 @@ namespace MyMath
                 Console.WriteLine("Num cannot be 0");
                 return (null);
             }
-            if (matrix == 0)
+            if (matrix == null)
             {
                 return (null);
             }

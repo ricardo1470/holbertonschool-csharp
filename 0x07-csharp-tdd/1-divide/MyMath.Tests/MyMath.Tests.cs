@@ -3,37 +3,33 @@ using NUnit.Framework;
 namespace MyMath.Tests
 {
     [TestFixture]
-	public class MatrixTests
-	{
-		[Test]
-		public void Test1()
-		{
-			int[,] matrix = new int[2, 2] { { 6, 2 }, { 2, 4 } };
-			int num = 2;
+    public class MatrixTests
+    {
+        [Test]
+        public void When_0()
+        {
+            int[,] firstMatrix = new int[2, 2] {{4, 2}, {2, 4}};
 
-			int[,] output = Matrix.Divide(matrix, num);
+            int[,] newMatrix = Matrix.Divide(firstMatrix, 0);
+            Assert.AreEqual(null, newMatrix);
+        }
 
-			Assert.AreEqual(new int[2, 2] { { 3, 1 }, { 1, 2 } }, output);
-		}
-		[Test]
-		public void Test2()
-		{
-			int[,] matrix = null;
-			int num = 2;
+        [Test]
+        public void When_Null()
+        {
+            int[,] firstMatrix = null;
 
-			int[,] output = Matrix.Divide(matrix, num);
+            int[,] newMatrix = Matrix.Divide(firstMatrix, 5);
+            Assert.AreEqual(null, newMatrix);
+        }
 
-			Assert.AreEqual(null, output);
-		}
-		[Test]
-		public void Test3()
-		{
-			int[,] matrix = new int[2, 2] { { 6, 2 }, { 2, 4 } };
-			int num = 0;
+        [Test]
+        public void When_Normal()
+        {
+            int[,] firstMatrix = new int[2, 2] {{4, 2}, {2, 4}};
 
-			int[,] output = Matrix.Divide(matrix, num);
-
-			Assert.AreEqual(null, output);
-		}
-	}
+            int[,] newMatrix = Matrix.Divide(firstMatrix, 2);
+            Assert.AreEqual(new int[2, 2] {{2, 1}, {2, 1}}, newMatrix);
+        }
+    }
 }
