@@ -1,0 +1,10 @@
+0-is
+1-instance
+2-subclass
+3-type_get
+4-inherit
+5-shape
+6-shape
+7-shape
+8-shape
+9-shape
