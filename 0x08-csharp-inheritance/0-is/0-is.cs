@@ -1,12 +1,21 @@
 ﻿using System;
 
-namespace _0_is
+/// <summary>
+/// method that returns True if the object is an int,
+/// otherwise return False
+/// </summary>
+class Obj
 {
-    class Program
+    /// <summary>
+    /// returns True if the object is an int
+    /// otherwise return False.
+    /// </summary>
+    public static bool IsOfTypeInt(object obj)
     {
-        static void Main(string[] args)
+        if (obj.GetType() == typeof(int))
         {
-            Console.WriteLine("Hello World!");
+            return (true);
         }
+        return (false);
     }
 }
