@@ -1,12 +1,22 @@
 ﻿using System;
 
-namespace _1_instance
+/// <summary>
+/// method that returns True if the object is an instance of,
+/// or if the object is an instance of a class that inherited from,
+/// Array, otherwise return False.
+/// </summary>
+class Obj
 {
-    class Program
+    /// <summary>
+    /// returns True if the object is an instance
+    /// otherwise return False.
+    /// </summary>
+    public static bool IsInstanceOfArray(object obj)
     {
-        static void Main(string[] args)
+        if (obj is Array)
         {
-            Console.WriteLine("Hello World!");
+            return (true);
         }
+        return (false);
     }
 }
