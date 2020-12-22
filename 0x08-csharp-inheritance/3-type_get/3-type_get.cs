@@ -1,12 +1,30 @@
-﻿using System;
+﻿using System.Security.Cryptography;
+using System;
+using System.Collections.Generic;
+using System.Reflection;
 
-namespace _3_type_get
+/// <summary>
+/// method that prints the names of the available properties and methods
+/// of an object. See example for output format.
+/// </summary>
+class Obj
 {
-    class Program
+    /// <summary>
+    ///  prints the names of the available properties and methods of an object.
+    /// </summary>
+    public static void Print(object myObj)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        TypeInfo my_type = myObj.GetType().GetTypeInfo();
+		Console.WriteLine("{0} Properties:", my_type.Name);
+		foreach (PropertyInfo propInfo in my_type.GetProperties())
+		{
+			Console.WriteLine(propInfo.Name);
+		}
+
+		Console.WriteLine("{0} Methods:", my_type.Name);
+		foreach (MethodInfo metInfo in my_type.GetMethods())
+		{
+			Console.WriteLine(metInfo.Name);
+		}
     }
 }
