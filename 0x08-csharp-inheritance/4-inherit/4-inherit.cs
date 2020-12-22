@@ -1,12 +1,15 @@
 ﻿using System;
-
-namespace _4_inherit
+using System.Collections.Generic;
+/// <summary>
+/// empty class Dog that inherits
+/// from empty class Animal.
+/// </summary>
+class Animal
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+}
+/// <summary>
+/// empty class Dog
+/// </summary>
+class Dog : Animal
+{
 }
