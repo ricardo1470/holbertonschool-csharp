@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace _5_shape
+/// <summary>
+/// a class Shape.
+/// </summary>
+class Shape
 {
-    class Program
+    /// <summary>
+    /// public method: public virtual int Area()
+    /// </summary>
+    public virtual int Area()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        throw new NotImplementedException("Area() is not implemented");
     }
 }
