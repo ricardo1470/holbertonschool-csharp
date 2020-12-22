@@ -14,6 +14,6 @@ class Obj
     /// </summary>
     public static bool IsOnlyASubclass(Type derivedType, Type baseType)
     {
-        return derivedType.
+        return derivedType.isSubclassTo(derivedType);
     }
 }
