@@ -19,8 +19,9 @@ class VectorMath
         || vector2.Length < 2 || vector2.Length > 3)
         {
             for (int i = 0; i < vector1.Length; i++)
-                sumVector[i] = vector1[i] + vector2[i];
+            {
                 vectorResult = Vector.Add(vector1, vector2);
+            }
             return vectorResult;
 
         }
