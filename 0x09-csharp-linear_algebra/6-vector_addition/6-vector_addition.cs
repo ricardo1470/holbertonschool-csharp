@@ -13,7 +13,7 @@ class VectorMath
     /// <return> return a vector containing -1 </return>
     public static double[] Add(double[] vector1, double[] vector2)
     {
-        Vector vectorResult = new Vector[];
+        double vectorResult = new Vector[];
 
         if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3 || vector2.Length < 2 || vector2.Length > 3)
         {
