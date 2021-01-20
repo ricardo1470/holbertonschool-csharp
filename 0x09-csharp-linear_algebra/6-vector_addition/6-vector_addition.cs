@@ -14,11 +14,13 @@ class VectorMath
     public static double[] Add(double[] vector1, double[] vector2)
     {
         double vectorResult = new Vector[];
+        double[] temp = new double[vector1.Length];
 
         if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3 || vector2.Length < 2 || vector2.Length > 3)
         {
-            vectorResult = Vector.Add(vector1, vector2);
+            return new double[] {-1};
         }
+        vectorResult = Vector.Add(vector1, vector2);
         return vectorResult;
     }
 }
