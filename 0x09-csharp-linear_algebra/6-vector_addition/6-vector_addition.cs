@@ -13,17 +13,18 @@ class VectorMath
     /// <return> return a vector containing -1 </return>
     public static double[] Add(double[] vector1, double[] vector2)
     {
+        double[] new_vec = new double[vector1.Length];
+
         if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3
         || vector2.Length < 2 || vector2.Length > 3)
         {
-            double[] vectorResult = new Vector(); 
-
-            for (int i = 0; i < vector1.Length; i++)
-            {
-                vectorResult = Vector.Add(vector1[i], vector2[i]);
-            }
-            return vectorResult;
+            return new double[] {-1};
         }
-        else  { return new double[]{-1}; }
+
+        for (int i = 0; i < vector1.Length; i++)
+        {
+            new_vec[i] = Math.Round(vector1[i] + vector2[i],2 );
+        }
+        return new_vec;
     }
 }
