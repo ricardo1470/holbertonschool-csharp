@@ -17,9 +17,6 @@ class MatrixMath
     {
         int i, j;
 
-        double[,] matrix = { { 1, 2 }, { 3, 4 } };
-        double[,] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-
         if (matrix1.Length  =! matrix2.Length)
         {
             return new double [,] {{-1}};
