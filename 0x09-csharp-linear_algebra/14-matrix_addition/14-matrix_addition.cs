@@ -15,7 +15,7 @@ class MatrixMath
     /// </return>
     public static double[,] Add(double[,] matrix1, double[,] matrix2)
     {
-        int i, j;
+        double [,] sum_matrix = new double [matrix1.GetLength(0), matrix1.GetLength(1)];
 
         if (matrix1.GetLength(0) != matrix2.GetLength(0) ||
         || matrix1.GetLength(0) < 2|| matrix1.GetLength(0) > 3
@@ -26,9 +26,9 @@ class MatrixMath
             return new double [,] {{-1}};
         }
 
-        for (i = 0; i < matrix1.GetLength(0); i++)
+        for (int i = 0; i < matrix1.GetLength(0); i++)
         {
-            for (j = 0; j < matrix2.GetLength(1); j++)
+            for (int j = 0; j < matrix2.GetLength(1); j++)
             {
                 sum_matrix[i,j] = Math.Round(matrix1[i,j] + matrix2[i,j], 2);
             }
