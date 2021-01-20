@@ -14,11 +14,15 @@ class VectorMath
     public static double[] Add(double[] vector1, double[] vector2)
     {
         Vector vectorResult = new Vector();
-        double[] temp = new double[vector1.Length];
+        double[] sum = new double[2];
+        int i;
 
-        if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3 || vector2.Length < 2 || vector2.Length > 3)
+        if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3
+        || vector2.Length < 2 || vector2.Length > 3)
         {
-            return new double[] {-1};
+            for (i = 0; i < 2; i++)
+                sum[i] = -1;
+            return sum;
         }
         vectorResult = Vector.Add(vector1, vector2);
         return vectorResult;
