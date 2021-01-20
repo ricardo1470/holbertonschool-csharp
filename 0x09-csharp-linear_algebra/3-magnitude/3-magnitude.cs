@@ -15,6 +15,7 @@ class VectorMath
         /// <returns>
         /// The return value should be rounded to the nearest hundredth
         /// </returns>
+        double temp = 0;
 
         if (vector.Length < 2 || vector.Length > 3)
         {
@@ -23,7 +24,8 @@ class VectorMath
 
         foreach (double side in vector)
         {
-            return Math.Round(Math.Sqrt((Math.Pow(side, 2)) + (Math.Pow(side, 2))), 2);
+            temp = ((Math.Pow(side, 2)) + (Math.Pow(side, 2)));
         }
+        return (Math.Round(Math.Sqrt(temp), 2));
     }
 }
