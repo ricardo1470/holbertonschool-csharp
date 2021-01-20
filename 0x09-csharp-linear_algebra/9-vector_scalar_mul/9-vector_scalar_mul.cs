@@ -15,7 +15,7 @@ class VectorMath
     /// </return>
     public static double[] Multiply(double[] vector, double scalar)
     {
-        double[] new_vec = new double[vector.Length];
+        int new_vec = vector.Length;
         Vector vectorResult = new Vector();
 
         if (vector.Length < 2 || vector.Length > 3)
