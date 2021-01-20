@@ -24,7 +24,7 @@ class VectorMath
 
         foreach (double side in vector)
         {
-            temp += (side * side);
+            temp += (Math.Pow(side, 2));
         }
         temp = Math.Round(Math.Sqrt(temp), 2);
         return temp;
