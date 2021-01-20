@@ -26,6 +26,7 @@ class VectorMath
         {
             temp += (side * side);
         }
-        return Math.Round(Math.Sqrt(temp), 2);
+        temp = Math.Round(Math.Sqrt(temp), 2);
+        return temp;
     }
 }
