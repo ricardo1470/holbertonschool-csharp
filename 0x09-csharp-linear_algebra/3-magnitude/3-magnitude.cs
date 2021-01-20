@@ -10,11 +10,12 @@ class VectorMath
     {
         /// <sumary>
         /// The vector can be 2D or 3D
-        /// If the vector is not a 2D or 3D vector, <returns> return -1 </returns>
+        /// If the vector is not a 2D or 3D vector, <returns>return -1 </returns>
         /// </sumary>
         /// <returns>
         /// The return value should be rounded to the nearest hundredth
         /// </returns>
+        double temp = 0;
 
         if (vector.Length < 2 || vector.Length > 3)
         {
@@ -23,7 +24,7 @@ class VectorMath
 
         foreach (double side in vector)
         {
-            return Math.Sqrt((Math.Pow(side, 2)) + (Math.Pow(side, 2)));
+            return Math.Round(Math.Sqrt((Math.Pow(side, 2)) + (Math.Pow(side, 2))), 2);
         }
     }
 }
