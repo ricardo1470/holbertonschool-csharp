@@ -1,20 +1,20 @@
 ﻿using System;
 
 
+/// <sumary>
+/// method that calculates and returns the length of a given vector.
+/// </sumary>
 class VectorMath
 {
     /// <sumary>
-    /// method that calculates and returns the length of a given vector.
+    /// The vector can be 2D or 3D
+    /// If the vector is not a 2D or 3D vector, <returns>return -1 </returns>
     /// </sumary>
+    /// <returns>
+    /// The return value should be rounded to the nearest hundredth
+    /// </returns>
     public static double Magnitude(double[] vector)
     {
-        /// <sumary>
-        /// The vector can be 2D or 3D
-        /// If the vector is not a 2D or 3D vector, <returns>return -1 </returns>
-        /// </sumary>
-        /// <returns>
-        /// The return value should be rounded to the nearest hundredth
-        /// </returns>
         double temp = 0;
 
         if (vector.Length < 2 || vector.Length > 3)
