@@ -15,7 +15,6 @@ class VectorMath
         /// <returns>
         /// The return value should be rounded to the nearest hundredth
         /// </returns>
-        double temp = 0;
 
         if (vector.Length < 2 || vector.Length > 3)
         {
