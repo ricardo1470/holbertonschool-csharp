@@ -20,7 +20,7 @@ class VectorMath
 
             for (int i = 0; i < vector1.Length; i++)
             {
-                vectorResult = Vector.Add(vector1, vector2);
+                vectorResult = Vector.Add(vector1[i], vector2[i]);
             }
             return vectorResult;
         }
