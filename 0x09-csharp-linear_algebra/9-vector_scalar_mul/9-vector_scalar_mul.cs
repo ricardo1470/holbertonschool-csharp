@@ -16,14 +16,17 @@ class VectorMath
     public static double[] Multiply(double[] vector, double scalar)
     {
         int new_vec = vector.Length;
-        Vector vectorResult = new Vector();
+        double[] new_vec2 = new double[new_vec3];
+        int i;
 
         if (vector.Length < 2 || vector.Length > 3)
         {
-            return new double[] {-1};
+            for (i = 0; i < new_vec3; i++)
+            {
+               new_vec2[i] = vector[i] * scalar;
+            }
+            return (new_vec2);
         }
-
-        vectorResult = Vector.Multiply(scalar, vector);
-        return vectorResult;
+        return new double[]{-1};
     }
 }
