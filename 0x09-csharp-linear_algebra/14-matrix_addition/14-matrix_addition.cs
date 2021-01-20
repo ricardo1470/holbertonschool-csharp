@@ -29,6 +29,6 @@ class MatrixMath
                 sum_matrix[i,j] = Math.Round(matrix1[i,j] + matrix2[i,j], 2);
             }
         }
-        return (sum_matrix[i,j]);
+        return (sum_matrix);
     }
 }
