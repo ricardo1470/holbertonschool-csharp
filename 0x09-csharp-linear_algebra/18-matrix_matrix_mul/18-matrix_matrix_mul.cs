@@ -20,25 +20,24 @@ namespace _18_matrix_matrix_mul
         public static double[,] Multiply(double[,] matrix1, double[,] matrix2)
         {
             double [,] mult_matrix = new double [matrix1.GetLength(0), matrix1.GetLength(1)];
-            double temp;
-            int temp2 = 0;
+            double temp = 0;
 
             if (matrix1.GetLength(1) != matrix2.GetLength(0))
             {
                 return new double [,] {{-1}};
             }
 
-            for (int i = 0; i < temp.GetLength(0); i++)
+            for (int i = 0; i < mult_matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < temp.GetLength(1); j++)
+                for (int j = 0; j < mult_matrix.GetLength(1); j++)
                 {
-                    for (int k = 0; k < temp.GetLength(0); k++)
+                    for (int k = 0; k < mult_matrix.GetLength(0); k++)
                     {
-                        temp2 += matrix1[i, k] * matrix2[k, j];
+                        temp += matrix1[i, k] * matrix2[k, j];
                     }
-                    temp[i, j] = Math.Round(temp2, 2);
+                    mult_matrix[i, j] = Math.Round(temp, 2);
                 }
             }
-            return (temp);
+            return (mult_matrix);
         }
     }
