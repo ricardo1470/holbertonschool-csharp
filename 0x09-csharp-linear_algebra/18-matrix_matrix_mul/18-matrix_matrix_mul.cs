@@ -20,7 +20,8 @@ namespace _18_matrix_matrix_mul
         public static double[,] Multiply(double[,] matrix1, double[,] matrix2)
         {
             double [,] mult_matrix = new double [matrix1.GetLength(0), matrix1.GetLength(1)];
-            double temp, temp2;
+            double temp;
+            int temp2 = 0;
 
             if (matrix1.GetLength(0) != matrix2.GetLength(0)
                 || matrix1.GetLength(0) < 2|| matrix1.GetLength(0) > 3
