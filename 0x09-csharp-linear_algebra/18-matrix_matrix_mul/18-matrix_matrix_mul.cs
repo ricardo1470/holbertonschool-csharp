@@ -19,7 +19,7 @@ class MatrixMath
         double[,] mult_matrix = new double[matrix2.GetLength(0),matrix2.GetLength(1)];
         double temp;
 
-        if (matrix1.GetLength(0) == matrix2.GetLength(1))
+        if (matrix1.GetLength(1) == matrix2.GetLength(0))
         {
             for (int i = 0; i < mult_matrix.GetLength(0); i++)
             {
