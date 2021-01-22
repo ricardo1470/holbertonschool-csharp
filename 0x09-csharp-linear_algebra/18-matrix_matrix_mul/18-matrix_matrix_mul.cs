@@ -34,7 +34,7 @@ namespace _18_matrix_matrix_mul
                 {
                     for (int k = 0; k < temp.GetLength(0); k++)
                     {
-                        temp2 += matrix1[i, k] * matrix2[k, j]
+                        temp2 += matrix1[i, k] * matrix2[k, j];
                     }
                     temp[i, j] = Math.Round(temp2, 2);
                 }
