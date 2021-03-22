@@ -128,7 +128,7 @@ class Queue<T>
     /// print Concatenate() is for a queue of Strings or Chars only. to the console 
     /// </summary>
     /// <return> return null </return>
-    public void Concatenate()
+    public string Concatenate()
     {
         if (head == null)
         {
@@ -137,6 +137,27 @@ class Queue<T>
         }
 
         if (typeof(T).Name is string)
-        {}
+        {
+            string tmp = new string("");
+            Node temp = head;
+            bool temp2 = true;
+
+            while (temp != null)
+            {
+                if (temp2 != true && typeof(T).Name == "String")
+                {
+                    tmp += " ";
+                }
+                tmp += temp.value;
+                temp = temp.next;
+                temp2 = false;
+            }
+            return tmp;
+        }
+        else
+        {
+            Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
+            return null;
+        }
     }
 }
