@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace _0_queue
+/// <summary>
+/// new class called Queue.
+///</summary>
+class Queue<T>
 {
-    class Program
+    /// <summary>
+    /// Queue should not inherit from other classes or interfaces.
+    ///</summary>
+    /// <return> the Queue’s type.</return>
+    public Type CheckType()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        return typeof(T);
     }
 }
