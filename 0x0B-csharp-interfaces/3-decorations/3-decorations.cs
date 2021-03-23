@@ -81,11 +81,11 @@ public class Decoration : Base, IInteractive, IBreakable
         {
             if (isQuestItem == true)
             {
-                Console.WriteLine($"You look at the {name}. There's a key inside.");
+                Console.WriteLine($"You look at the {this.name}. There's a key inside.");
             }
             else
             {
-                Console.WriteLine($"You look at the {name}. Not much to see here.");
+                Console.WriteLine($"You look at the {this.name}. Not much to see here.");
             }
         }
     }
@@ -97,15 +97,15 @@ public class Decoration : Base, IInteractive, IBreakable
 
         if (durability > 0)
         {
-            Console.WriteLine($"You hit the {name}. It cracks.");
+            Console.WriteLine($"You hit the {this.name}. It cracks.");
         }
         if (durability == 0)
         {
-            Console.WriteLine($"You smash the {name}. What a mess.");
+            Console.WriteLine($"You smash the {this.name}. What a mess.");
         }
         if (durability < 0)
         {
-            Console.WriteLine($"The {name} is already broken.");
+            Console.WriteLine($"The {this.name} is already broken.");
         }
     }
 
