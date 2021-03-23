@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 /// <summary>
 /// abstract class called Base
@@ -148,6 +149,32 @@ public class RoomObjects
     ///<summary> method should take a list of all objects, </summary>
     public static void IterateAction(List<Base> roomObjects, Type type)
     {
-        
+        foreach (var item in roomObjects)
+        {
+            if (type.ToString() == "IInteractive")
+            {
+                if (item is IInteractive)
+                {
+                    IInteractive tmp = item as IInteractive;
+                    tmp.Interact();
+                }
+            }
+            if (type.ToString() == "IBreakable")
+            {
+                if (item is IBreakable)
+                {
+                    IBreakable temp = item as IBreakable;
+                    temp.Break();
+                }
+            }
+            if (type.ToString() == "ICollectable")
+            {
+                if (item is ICollectable)
+                {
+                    ICollectable temp = item as ICollectable;
+                    temp.Collect();
+                }
+            }
+        }
     }
 }
