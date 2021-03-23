@@ -9,7 +9,7 @@ public abstract class Base
     /// <summary>abstract class called Base</summary>
     public override string ToString()
     {
-        return $"{name} is a {GetType().Name}";
+        return $"{this.name} is a {this.GetType().Name}";
     }
 }
 
@@ -59,7 +59,7 @@ public class Decoration : Base, IInteractive, IBreakable
     public int durability { get; set; }
 
     /// <summary>Constructor.</summary>
-    public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
+    public Decoration (string name = "Decoration", int durability = 1, bool isQuestItem = false)
     {
         if (durability <= 0)
         {
