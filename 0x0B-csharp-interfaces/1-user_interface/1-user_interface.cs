@@ -41,7 +41,7 @@ public interface ICollectable
 }
 
 /// <summary>new class called TestObject</summary>
-public class TestObject : Base, IInteractive, IBreakable, ICollectable
+public class TestObject : Base, IInteractive<T>, IBreakable<T>, ICollectable<T>
 {
     ///<summary>Property durability</summary>
     public int durability { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
