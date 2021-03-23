@@ -11,7 +11,7 @@ public abstract class Base
     /// <summary>abstract class called Base</summary>
     public override string ToString()
     {
-        return $"{name} is a {GetType().Name}";
+        return $"{this.name} is a {this.GetType().Name}";
     }
 }
 
@@ -41,7 +41,7 @@ public interface ICollectable
 }
 
 /// <summary>new class called TestObject</summary>
-public class TestObject : Base, IInteractive<T>, IBreakable<T>, ICollectable<T>
+public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     ///<summary>Property durability</summary>
     public int durability { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
