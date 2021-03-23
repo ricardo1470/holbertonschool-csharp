@@ -1,10 +1,12 @@
 ﻿using System;
 
-/// <summary>abstract class called Base</summary>
+/// <summary>
+/// abstract class called Base
+/// </summary>
 public abstract class Base
 {
     /// <summary>property</summary>
-    public string name { set; get; }
+    public string name { get; set; }
 
     /// <summary>abstract class called Base</summary>
     public override string ToString()
@@ -13,24 +15,28 @@ public abstract class Base
     }
 }
 
-
 /// <summary>an interface called IInteractive</summary>
-interface  IInteractive
+public interface  IInteractive
 {
+    /// <summary>method Interact</summary>
     void Interact();
 }
 
 /// <summary>an interface called IBreakable</summary>
-interface IBreakable
+public interface IBreakable
 {
+    /// <summary>property durability</summary>
     int durability { get; set; }
+    /// <summary>method Break</summary>
     void Break();
 }
 
 /// <summary>an interface called IBreakable</summary>
-interface ICollectable
+public interface ICollectable
 {
+    /// <summary>property isCollected</summary>
     bool isCollected { get; set; }
+    /// <summary>method Collect</summary>
     void Collect();
 }
 
