@@ -111,5 +111,4 @@ public class Decoration : Base, IInteractive, IBreakable
             Console.WriteLine($"The {this.name} is already broken.");
         }
     }
-
 }
