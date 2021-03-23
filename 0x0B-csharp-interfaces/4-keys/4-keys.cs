@@ -139,5 +139,4 @@ public class Key : Base, ICollectable
             Console.WriteLine($"You have already picked up the {this.name}.");
         }
     }
-
 }
