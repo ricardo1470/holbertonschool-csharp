@@ -77,16 +77,13 @@ public class Decoration : Base, IInteractive, IBreakable
         {
             Console.WriteLine($"The {this.name} has been broken");
         }
-        else
+        else if (isQuestItem == true)
         {
-            if (isQuestItem == true)
-            {
-                Console.WriteLine($"You look at the {this.name}. There's a key inside.");
-            }
-            else
-            {
-                Console.WriteLine($"You look at the {this.name}. Not much to see here.");
-            }
+            Console.WriteLine($"You look at the {this.name}. There's a key inside.");
+        }
+        else if (isQuestItem == false)
+        {
+            Console.WriteLine($"You look at the {this.name}. Not much to see here.");
         }
     }
 
