@@ -48,16 +48,16 @@ class Door : Base, IInteractive
     /// <summary>
     /// constructor that sets the value of name.
     /// </summary>
-    public Door(string value = "Door")
+    public Door(string name = "Door")
     {
-        name = value;
+        this.name = name;
     }
 
     /// <summary>
     /// Interaction with a door.
     /// </summary>
-    public Interact()
+    public void Interact()
     {
-        Console.WriteLine($"You try to open the {name}. It's locked.");
+        Console.WriteLine($"You try to open the {this.name}. It's locked.");
     }
 }
