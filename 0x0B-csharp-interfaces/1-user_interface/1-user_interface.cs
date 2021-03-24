@@ -6,7 +6,7 @@
 public abstract class Base
 {
     /// <summary>property</summary>
-    public string name { get; set; }
+    private string name { get; set; }
 
     /// <summary>abstract class called Base</summary>
     public override string ToString()
@@ -16,7 +16,7 @@ public abstract class Base
 }
 
 /// <summary>an interface called IInteractive</summary>
-public interface  IInteractive
+public interface IInteractive
 {
     /// <summary>method Interact</summary>
     void Interact();
@@ -44,24 +44,16 @@ public interface ICollectable
 public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     ///<summary>Property durability</summary>
-    public int durability { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+    public int durability { get; set; }
     ///<summary>Property isCollected</summary>
-    public bool isCollected { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+    public bool isCollected { get; set; }
+    ///<summary>Property isCollected</summary>
+    public string name { get; set; }
 
     ///<summary>Method Interact</summary>
-    public void Interact()
-    {
-        throw new NotImplementedException();
-    }
+    public void Interact() {}
     ///<summary>Method Break</summary>
-    public void Break()
-    {
-        throw new NotImplementedException();
-    }
-
+    public void Break() {}
     ///<summary>Method Collect</summary>
-    public void Collect()
-    {
-        throw new NotImplementedException();
-    }
+    public void Collect() {}
 }
