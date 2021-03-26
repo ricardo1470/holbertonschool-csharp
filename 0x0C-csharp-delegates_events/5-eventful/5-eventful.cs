@@ -88,7 +88,7 @@ class Player
         {
             this.hp = newHp;
         }
-        HPCheck(this, new CurrentHPArgs(hp));
+        OnCheckStatus(new CurrentHPArgs(hp));
     }
 
     ///<summary> Method ApplyModifier player</summary>
