@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Class1
+namespace InventoryLibrary
 {
-	public Class1()
+	public class Base
 	{
+		public String id;
+		public DateTime date_created;
+		public DateTime date_updated;
 	}
 }
