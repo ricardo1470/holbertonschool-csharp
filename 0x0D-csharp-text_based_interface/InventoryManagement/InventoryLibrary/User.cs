@@ -9,5 +9,10 @@ namespace InventoryLibrary
 	class User: Base
 	{
 		public String name;
+
+		public User (string name)
+		{
+			this.name = name;
+		}
 	}
 }

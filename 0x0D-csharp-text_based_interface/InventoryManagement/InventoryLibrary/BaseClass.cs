@@ -4,8 +4,8 @@ namespace InventoryLibrary
 {
 	public class Base
 	{
-		public String id;
-		public DateTime date_created;
-		public DateTime date_updated;
+		private String id;
+		private DateTime date_created;
+		private DateTime date_updated;
 	}
 }
