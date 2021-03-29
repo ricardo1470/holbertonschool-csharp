@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InventoryLibrary
 {
-	class User
+	class User: Base
 	{
+		public String name;
 	}
 }
