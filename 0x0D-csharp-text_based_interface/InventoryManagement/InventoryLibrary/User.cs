@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace InventoryLibrary
 {
-	class User: Base
-	{
-		public String name;
+}
 
-		public User (string name)
-		{
-			this.name = name;
-		}
+class User: Base
+{
+	public String name;
+
+	public User (string name = "default")
+	{
+		this.name = name;
 	}
 }
