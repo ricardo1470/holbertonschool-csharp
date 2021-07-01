@@ -42,7 +42,7 @@ class Queue<T>
     public void Enqueue(T value)
     {
         Node temp = new Node(value);
-        
+
         if (head == null)
         {
             head = temp;
